@@ -36,10 +36,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: metrics
-          path: models/v0.1/metrics.json
+          path: models/v0.2/metrics.json
 
       - name: Upload model
         uses: actions/upload-artifact@v4
         with:
-          name: model-v0.1
-          path: models/v0.1/model.joblib
+          name: model-v0.2
+          path: models/v0.2/model.joblib

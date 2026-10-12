@@ -21,7 +21,7 @@ VALID_PAYLOAD = {
 def test_health():
     response = client.get("/health")
     assert response.status_code == 200
-    assert response.json() == {"status": "ok", "model_version": "v0.1"}
+    assert response.json() == {"status": "ok", "model_version": "v0.2"}
 
 
 def test_predict():

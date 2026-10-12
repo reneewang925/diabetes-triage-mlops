@@ -5,7 +5,7 @@ import pandas as pd
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-MODEL_VERSION = "v0.1"
+MODEL_VERSION = "v0.2"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 MODEL_PATH = BASE_DIR / "models" / MODEL_VERSION / "model.joblib"
